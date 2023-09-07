@@ -54,8 +54,7 @@ class FlutterImageWidget extends StatelessWidget {
         ? Align(
       alignment: alignment!,
       child: buildWidget(),
-    )
-        : buildWidget();
+    ) : buildWidget();
   }
 
   buildWidget() {
