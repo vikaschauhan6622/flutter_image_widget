@@ -23,6 +23,13 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  plugin:
+    platforms:
+      android:
+        package: flutter_image_widget
+        pluginClass: FlutterImageWidget
+      ios:
+        pluginClass: FlutterImageWidget
 
   # To add assets to your package, add an assets section, like this:
   assets:
