@@ -77,7 +77,7 @@ class WithAssets extends StatelessWidget {
 }
 
 
-```dart
+
 class WithUrl extends StatelessWidget {
   const WithUrl({super.key});
 
