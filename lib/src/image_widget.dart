@@ -1,11 +1,11 @@
 import 'dart:io';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_image_widget/src/utils/image_constant.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:image_widget/src/utils/image_constant.dart';
 
 // ignore: must_be_immutable
-class ImageWidget extends StatelessWidget {
+class FlutterImageWidget extends StatelessWidget {
   ///url is required parameter for fetching network image
   String? url;
 
@@ -29,8 +29,8 @@ class ImageWidget extends StatelessWidget {
   BorderRadius? radius;
   BoxBorder? border;
 
-  ///a ImageWidget it can be used for showing any type of images it will shows the placeholder image if image is not found on network image
-  ImageWidget({
+  ///a FlutterImageWidget it can be used for showing any type of images it will shows the placeholder image if image is not found on network image
+  FlutterImageWidget({
     super.key,
     this.url,
     this.imageAssetPath,

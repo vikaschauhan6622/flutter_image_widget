@@ -1,6 +1,6 @@
-# ImageWidget
+# FlutterImageWidget
 
-The `ImageWidget` is a versatile Flutter widget designed for displaying different types of images in a Flutter application.
+The `FlutterImageWidget` is a versatile Flutter widget designed for displaying different types of images in a Flutter application.
 
 ## Features:
 
@@ -53,7 +53,7 @@ The `ImageWidget` is a versatile Flutter widget designed for displaying differen
 - **Fallback Behavior**:
   - Provides a fallback behavior (a `SizedBox`) in case none of the specified image sources are available.
 
-Overall, the `ImageWidget` offers a comprehensive solution for handling and displaying images in a Flutter application, catering to a wide range of image sources and customization preferences. Its clean code structure and thoughtful design make it a valuable asset for developers seeking a flexible image rendering solution.
+Overall, the `FlutterImageWidget` offers a comprehensive solution for handling and displaying images in a Flutter application, catering to a wide range of image sources and customization preferences. Its clean code structure and thoughtful design make it a valuable asset for developers seeking a flexible image rendering solution.
 
 
 ```dart
@@ -65,7 +65,7 @@ class WithAssets extends StatelessWidget {
     return Scaffold(
       body: Center(
         child:
-          ImageWidget(
+          FlutterImageWidget(
             height: 100,
             width: 100,
             imageAssetPath: ImageConstant.imageNotFound,
@@ -86,7 +86,7 @@ class WithUrl extends StatelessWidget {
     return Scaffold(
       body: Center(
         child:
-          ImageWidget(
+          FlutterImageWidget(
             height: 100,
             width: 100,
             url: "set_image_url_here",
